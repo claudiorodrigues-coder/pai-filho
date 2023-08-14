@@ -1,0 +1,236 @@
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+@font-face {
+    font-family:'viking';
+    src: url('fontes/VIKING-N.TTF') format('truetype') ;
+    font-weight: bolder;
+}
+
+@font-face {
+    font-family:'capitão';
+    src: url('fontes/American\ Captain.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family:'seagram';
+    src: url('fontes/Seagram\ tfb.ttf') forma('truetype');
+    font-weight: bold;
+}
+
+:root {
+    --cor1:(#CEDEC1);
+    --cor2:(#9CBA82);
+    --cor3:(#6F944B);
+    --cor4:(#4B5E3E);
+    --cor5:(#36402D);
+
+    --fonte-principal: 'viking';
+    --fonte-titulo: 'capitão';
+    --fonte-texto: 'seagram' sans-serif;
+    --fonte-padrao: 'Arial helvetica verdana sans-serif'
+
+    }
+
+    body {
+        background-color: #CEDEC1;
+    }
+
+    header {
+        background-color: #36402D;
+        box-shadow: 5px 5px 5px black;
+    }
+
+    header > h1 {
+        font-family:Arial, Helvetica, sans-serif;
+        color: white;
+        font-size: 3.1em;
+        padding: 10px 20px 25px 20px ;
+        text-align: center;
+    }
+
+    header > h2 {
+        background-color: rgba(0, 0, 0, 0.486);
+        font-family:'capitão';
+        color: white;
+        font-size: 2.5em;
+        text-align: center;
+        padding-bottom: 0px;
+    }
+
+    nav {
+        background-color: #4B5E3E;
+        padding: 20px 20px 5px 10px;
+    }
+
+    nav > a {
+        text-decoration: none;
+        color: #9CBA82;
+        padding-right: 20px;
+        font-size: 1.1em;
+        font-weight: bolder;
+        border-radius: 2px;
+        transition-duration: .5s;
+    }
+
+    nav > a:hover {
+        background-color: #6F944B;
+        color: white;
+        text-decoration: underline;
+    }
+
+    main {
+        background-color: white;
+        min-width: 300px;
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    main > h1 {
+        background-color: #9CBA82;
+        font-family: var(--fonte-titulo);
+        font-size: 2.1;
+        text-align: center;
+    }
+
+    main > h2 {
+        font-size: 1.9em;
+        text-align: center;
+    }
+
+
+    main > p {
+        font-family:Arial, Helvetica, sans-serif;
+        color: #36402D;
+        line-height: 1.5em;
+        font-size: 1.2em;
+        padding-left: 5px;
+        padding-right: 5px;
+        text-align: justify;
+        text-indent: 20px;
+    }
+
+    article {
+        margin-top: 5px;
+    }
+
+    article > h2 { 
+        background-color: #9CBA82;
+        font-size: 1.9em;
+        text-align: center;
+    }
+
+    article > h3 {
+        background-color: #9CBA82;
+        text-align: center;
+        font-size: 1.5em;
+        padding-top: 3px;
+    }
+
+    article > p {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #36402D;
+        line-height: 1.5em;
+        padding-left: 5px;
+        padding-right: 5px;
+        text-align: justify;
+        text-indent: 20px;
+    }
+
+    .ensinar {
+        margin-bottom: -5px;
+    }
+
+     article > ul {
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left: 5px;
+        list-style-position: inside;
+     }
+
+     .leo {
+        text-decoration: none;
+        color: #36402D;
+     }
+
+     .leo::after {
+        content:'\00A0\1F517';
+     }
+
+     .leo:hover {
+        color: #6F944B;
+        text-decoration: underline;
+     }
+
+     div {
+        background-color: #36402D;
+     }
+
+     div > video {
+        display: block;
+        margin: auto;
+     }
+
+     aside {
+        background-color: #CEDEC1;
+     }
+
+     aside  h2 {
+        font-family: var(--fonte-titulo);
+        font-size: 1.9em;
+        text-align: center;
+
+     }
+
+     aside > p {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: justify;
+        line-height: 1.5em;
+        padding-left: 5px;
+        padding-right: 5px;
+     }
+
+     aside > h3 {
+        text-align: center;
+        font-size: 1.5em;
+     }
+
+     .afilhados {
+        margin-left: 150px;
+     }
+
+     .lorenzo {
+        margin-left:45px;
+     }
+
+
+     .maria {
+        margin-left: 25px;
+     }
+
+     .pai {
+        display: block;
+        margin: auto;
+     }
+
+     .filhos {
+        background-image: url(fontes/imagem\ pai\ e\ filho.jpg);
+     }
+
+     .filhos > h2 {
+        color: black;
+        font-size: 2.1em;
+     }
+
+     .filhote {
+        font-family: Arial, Helvetica, sans-serif;
+     }
+
+     footer {
+        background-image: linear-gradient( to right, black, transparent );
+        color: white;
+     }
