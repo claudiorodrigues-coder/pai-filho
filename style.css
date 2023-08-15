@@ -43,6 +43,7 @@
 
     header {
         background-color: #36402D;
+        width: 100%;
         box-shadow: 5px 5px 5px black;
     }
 
@@ -204,16 +205,16 @@
      }
 
      .afilhados {
-        margin-left: 150px;
+        margin-left: 75px;
      }
 
      .lorenzo {
-        margin-left:45px;
+        margin-left: 75px;
      }
 
 
      .maria {
-        margin-left: 25px;
+        margin-left: 75px;
      }
 
      .pai {
