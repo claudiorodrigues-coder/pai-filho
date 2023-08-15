@@ -170,12 +170,15 @@
      }
 
      div {
-        background-color: #36402D;
+      min-width: 300px;
+      max-width: 1000px;
+      padding: 10px opx 10px 0px;
+      background-color: #36402D;
      }
 
      div > video {
-        width: 100%;
         display: block;
+        width: 90%;
         margin: auto;
      }
 
