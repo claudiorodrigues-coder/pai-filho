@@ -66,7 +66,8 @@
 
     nav {
         background-color: #4B5E3E;
-        padding: 20px 20px 5px 10px;
+        width: 100%;
+        padding: 25px 20px 5px 10px;
     }
 
     nav > a {
@@ -187,6 +188,7 @@
         font-family: var(--fonte-titulo);
         font-size: 1.9em;
         text-align: center;
+        padding-top: 5px;
 
      }
 
@@ -228,6 +230,7 @@
 
      .filhos > h1 {
         background-color: #4B5E3E;
+        padding-top: 5px;
      }
 
      .filhos > h2 {
