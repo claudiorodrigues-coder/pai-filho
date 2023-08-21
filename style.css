@@ -1,4 +1,4 @@
-
+@charset "UTF-8";
 
 * {
     padding: 0px;
@@ -98,6 +98,8 @@
         font-family: var(--fonte-titulo);
         font-size: 2.1;
         text-align: center;
+        position: sticky;
+        top: 0px;
     }
 
     main > h2 {
@@ -174,6 +176,7 @@
       max-width: 1000px;
       padding: 10px opx 10px 0px;
       background-color: #36402D;
+      position: relative;
      }
 
      div > video {
@@ -229,6 +232,10 @@
 
      .filhos {
         background-image: url(fontes/imagem\ pai\ e\ filho.jpg);
+        background-repeat: no-repeat;
+        background-position: CENTER CENTER;
+        background-size: cover;
+        background-attachment: fixed;
      }
 
      .filhos > h1 {
